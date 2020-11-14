@@ -99,9 +99,31 @@ table td{
     max-width: 1000px;
     margin: 0px auto;
 }
+#intinerario h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    margin-left: 50px;
+    text-shadow: rgba(190, 190, 190, 0.589) 2px 2px 2px;
+    text-decoration: underline;
+}
+#fotos-intinerarios{
+    display: flex;
+    max-width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#fotos-intinerarios div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fotos-intinerarios img{
+    box-shadow: rgba(190, 190, 190, 0.589) 4px 4px 4px;;
+}
 #cidades{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 180px;
 }
 #cidades h1{
     text-shadow: rgba(190, 190, 190, 0.589) 2px 2px 2px;
