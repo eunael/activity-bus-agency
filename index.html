@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência de ônibus Riograndense</title>
+    <title>(Nome da agência)</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header id="cabecalho">
-        <h1>Agência de ônibus Riograndense</h1>
+        <h1>(Nome da agência)</h1>
     </header>
     <div id="bemvindo">
         <div>
@@ -19,58 +19,71 @@
     <section id="conteudo">
         <hr>
         <article id="tabelas">
-            <h2>Rotas</h2>
+            <h2>Viajens</h2>
             <div class="rotas">
                 <div>
                     <table class="tabelarotas">
-                        <caption>Via Tangará</caption>
-                        <tr class="titulo"><td>Saída</td><td>Sentido</td><td>Chegada</td></tr>
-                        <tr><td>09:30</td><td>Natal - Nova Cruz</td><td>12:40</td></tr>
-                        <tr><td>16:30</td><td>Nova Cruz - Natal</td><td>20:00</td></tr>
-                    </table>
-                </div>
-                <div>
-                    <table class="tabelarotas">
-                        <caption>Via Brejinho</caption>
-                        <tr class="titulo"><td>Saída</td><td>Sentido</td><td>Chegada</td></tr>
-                        <tr><td>12:00</td><td>Natal - Nova Cruz</td><td>14:30</td></tr>
-                        <tr><td>16:00</td><td>Nova Cruz - Natal</td><td>18:40</td></tr>
-                    </table>
-                </div>
-            </div>
-
-            <h2>Passagens</h2>
-            <div class="passagem">
-                <div>
-                    <table class="tabelapassagem">
-                        <caption>Via Tangará</caption>
-                        <tr><td></td><td>Parnamirim</td><td>Macaíba</td><td>Bom Jesus</td><td>Serra Caiada</td><td>Tangará</td><td>Campestre</td><td>Passa e Fica</td><td>Nova Cruz</td></tr>
-                        <tr><td>Natal</td><td>R$ 5,00</td><td>R$ 4,50</td><td>R$ 7,00</td><td>R$ 6,00</td><td>R$ 5,00</td><td>R$ 5,00</td><td>R$ 6,00</td><td>R$ 6,00</td></tr>
-                    </table>
-                </div>
-                <div>
-                    <table class="tabelapassagem">
-                        <caption>Via Brejinho</caption>
-                        <tr><td></td><td>Parnamirim</td><td>Monte Alegre</td><td>Brejinho</td><td>Santo Antonio</td><td>Nova Cruz</td></tr>
-                        <tr><td>Natal</td><td>R$ 5,00</td><td>R$ 6,50</td><td>R$ 6,00</td><td>R$ 6,00</td><td>R$ 6,00</td></tr>
+                        <tr  class="titulo">
+                            <td>Embarque</td>
+                            <td>Destino</td>
+                            <td>Intinerário</td>
+                            <td>Saída</td>
+                            <td>Chegada</td>
+                            <td>Preço</td>
+                        </tr>
+                        <tr>
+                            <td>Natal</td>
+                            <td>João Pessoa</td>
+                            <td class="intiner">O caminho será pela BR 101, havendo uma parada em Rio Tinto.</td>
+                            <td>6:00</td>
+                            <td>9:00</td>
+                            <td>R$ 60,00</td>
+                        </tr>
+                        <tr>
+                            <td>Natal</td>
+                            <td>Recife</td>
+                            <td class="intiner">O caminho será pela BR 101, tendo paradas em Rio Tinto, João Pessoa e em Olinda.</td>
+                            <td>12:00</td>
+                            <td>17:00</td>
+                            <td>R$ 110,00</td>
+                        </tr>
+                        <tr>
+                            <td>Natal</td>
+                            <td>Fortaleza</td>
+                            <td class="intiner">O caminho será pela BR 304, havendo paradas em Açu e em Mossoró.</td>
+                            <td>5:00</td>
+                            <td>14:30</td>
+                            <td>R$ 165,00</td>
+                        </tr>
+                        <tr>
+                            <td>Natal</td>
+                            <td>Teresina</td>
+                            <td class="intiner">O caminho será pela BR 304, mudando para a BR 222 após um pausa em Fortaleza. Também haverá pausas em Açu, Mossoró e em Sobral.</td>
+                            <td>02:00</td>
+                            <td>23:00</td>
+                            <td>R$ 250,00</td>
+                        </tr>
+                        <tr>
+                            <td>Natal</td>
+                            <td>Maceió</td>
+                            <td class="intiner">O caminho será pela BR 101, mudando para a BR 060 após uma pausa em Recife. Haverá paradas também em Rio Tinto, João Pessoa, Sirinhaém, Maragogi, São Miguel dos Milagres e Jacarerica.</td>
+                            <td>12:00</td>
+                            <td>01:00, dia seguinte</td>
+                            <td>R$ 130,00</td>
+                        </tr>
+                        <tr>
+                            <td>Natal</td>
+                            <td>Salvador</td>
+                            <td class="intiner">O caminho será pela BR 101, mudando para a BR 060 após uma pausa em Recife e rotornando para a BR 101 após a pausa em Maceió. Após a parada em Aracaju, mudará para a BR 050, BR 100 e BR 99. Também haverá paradas em Rio Tinto, João Pessoa, Sirinhaém, Maragogi, São Miguel, Areia Branca, Atalaia, Itanhi, Arembepe e, por fim, em Itapuã.</td>
+                            <td>03:00</td>
+                            <td>03:00, dia seguinte</td>
+                            <td>R$ 250,00</td>
+                        </tr>
                     </table>
                 </div>
             </div>
         </article>
         <hr>
-        <article id="intinerario">
-            <h2>Intinerários</h2>
-            <div id="fotos-intinerarios">
-                <div>
-                    <h3>Via Tangará</h3>
-                    <img src="imagens/intinerario-tangara.jpeg" alt="">
-                </div>
-                <div>
-                    <h3>Via Brejinho</h3>
-                    <img src="imagens/intinerario-brejinho.jpeg" alt="">
-                </div>
-            </div>
-        </article>
         <br>
         <article id="historia">
             <div>
@@ -94,9 +107,34 @@
                 <li>cidade8</li>
             </ul>
         </div>
+        <hr>
+        <br>
+        <article>
+            <h2>Junte-se ao nosso time</h2>
+            <div id="formcad">
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Nome</legend>
+                        <input type="text" class="nome" placeholder="Nome"> <input type="text" class="nome" placeholder="Sobrenome">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contato</legend>
+                        <input type="email" class="email" placeholder="E-mail">
+                        <input type="tel" class="tel" placeholder="(xx) xxxx-xxxx" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <input type="text" class="end">
+                    </fieldset>
+                    <div id="box-button">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </article>
     </section>
     <footer>
-        <h2>Contato</h2>
+        <h2>Fale conosco</h2>
         <div id="infos">
             <div>
                 Telefone: 84 9 8888-8888
