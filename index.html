@@ -19,7 +19,7 @@
     <section id="conteudo">
         <hr>
         <article id="tabelas">
-            <h2>Viajens</h2>
+            <h2 class="ttlsartigos">Viajens</h2>
             <div class="rotas">
                 <div>
                     <table class="tabelarotas">
@@ -95,7 +95,7 @@
         </article>
         <br>
         <div id="cidades">
-            <h1>Cidades que atuamos</h1>
+            <h2 class="ttlsartigos">Cidades que atuamos</h2>
             <ul>
                 <li>cidade1</li>
                 <li>cidade2</li>
@@ -109,10 +109,10 @@
         </div>
         <hr>
         <br>
-        <article>
-            <h2>Junte-se ao nosso time</h2>
+        <article id="forms">
+            <h2 class="ttlsartigos">Junte-se ao nosso time</h2>
             <div id="formcad">
-                <form action="#" method="get">
+                <form action="paginas-secundarias/deu-certo.html" method="get">
                     <fieldset>
                         <legend>Nome</legend>
                         <input type="text" class="nome" placeholder="Nome"> <input type="text" class="nome" placeholder="Sobrenome">
@@ -126,6 +126,25 @@
                         <legend>Endereço</legend>
                         <input type="text" class="end">
                     </fieldset>
+                    <fieldset>
+                        <legend>Cargo</legend>
+                        <div class="cargos">
+                            <input type="radio" id="motorista" value="motorista" name="inpcargo">
+                            <label for="motorista">Motorista</label><br>
+                            <input type="radio" id="guiche" value="guiche" name="inpcargo">
+                            <label for="guiche">Guichê</label><br>
+                            <input type="radio" id="supervisor" value="supervisor" name="inpcargo">
+                            <label for="supervisor">Supervisor</label><br>
+                            <input type="radio" id="auxiliar" value="auxiliar" name="inpcargo">
+                            <label for="auxiliar">Auxiliar Adm.</label><br>
+                            <input type="radio" id="gerente" value="gerente" name="inpcargo">
+                            <label for="gerente">Gerente</label><br>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Currículo</legend>
+                        <input type="file" name="" id="">
+                    </fieldset>
                     <div id="box-button">
                         <button type="submit">Cadastrar</button>
                     </div>
@@ -133,6 +152,7 @@
             </div>
         </article>
     </section>
+    <hr>
     <footer>
         <h2>Fale conosco</h2>
         <div id="infos">
@@ -141,6 +161,9 @@
             </div>
             <div>
                 E-mail: busriograndense@gmail.com
+            </div>
+            <div>
+                *<a href="paginas-secundarias/form-chamado.html">Abrir chamado</a>
             </div>
         </div>
         <hr width="1200px">
