@@ -14,7 +14,7 @@
 }
 
 #bemvindo{
-    background-color: #c4c4c4;
+    background-color: #777777b6;
     width: 1349px;
     height: 400px;
     margin-left: -8px;
@@ -23,8 +23,8 @@
     width: 650px;
     height: 290px;
     margin: 0px auto;
-    padding-top: 40px;
-    word-break: break-all;
+    padding-top: 30px;
+    word-wrap: break-word;
     text-align: center;
     color: white;
     font: normal 14pt Arial, sans-serif;
@@ -32,6 +32,11 @@
 #bemvindo h1{
     font-size: 48pt;
     font-weight: bold;
+}
+#bemvindo p{
+    text-align: justify;
+    font-size: 14pt;
+    font-weight: 500;
 }
 
 h2.ttlsartigos{
@@ -84,8 +89,9 @@ table td{
     text-align: center;
 }
 #historia div{
-    padding-top: 10px;
-    max-width: 1000px;
+    padding-top: 55px;
+    max-width: 720px;
+    word-wrap: break-word;
     margin: 0px auto;
 }
 
@@ -164,7 +170,6 @@ button {
     margin-top: 15px;
     font: normal bold 18pt Arial;
     background: #0dd621;
-    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25); */
     width: 200px;
     height: 55px;
     border-radius: 50px;
