@@ -1,8 +1,13 @@
+body {
+    color: #282828;
+}
+/* NAVBAR */
 #cabecalho{
+    position: fixed;
     display: flex;
-    background-color: #00b50f;
+    background-color: #121b54;
     width: 1349px;
-    height: 90px;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
     margin-top: -22px;
@@ -41,19 +46,25 @@ nav#menu li:hover{
 	background-color: #00000080;
 }
 
+/* BANNER INICIAL */
 #bemvindo{
-    background-color: #777777b6;
+    background-image: url('/imagens/onibus.png');
+    background-repeat: no-repeat;
+    background-position: 680px 40px;
+    background-color: #014c78;
     width: 1349px;
-    height: 400px;
+    height: 550px;
+    margin-top: 20px;
     margin-left: -8px;
 }
-#bemvindo div{
+#bemvindo .bemvindo-texto{
     width: 650px;
     height: 290px;
     margin: 0px auto;
-    padding-top: 30px;
+    margin-left: 45px;
+    padding-top: 160px;
     word-wrap: break-word;
-    text-align: center;
+    text-align: left;
     color: white;
     font: normal 14pt Arial, sans-serif;
 }
@@ -67,6 +78,23 @@ nav#menu li:hover{
     font-weight: 500;
 }
 
+/* TABELAS DOS HORÁRIOS E INTINERÁRIO */
+#conteudo {
+    background-color: ghostwhite;
+    width: 1351px;
+    height: auto;
+    margin-top: -22px;
+    margin-left: -10px;
+}
+#tabelas{
+    display: block;
+    background-color: ghostwhite;
+    width: 1200px;
+    height: 1200px;
+    margin: 0px auto;
+    padding-top: 70px;
+    text-align: center;
+}
 h2.ttlsartigos{
     font-size: 20pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -75,17 +103,20 @@ h2.ttlsartigos{
     text-decoration: underline;
 }
 .onibus{
-    display: flex;
+    background-color: #fff;
     width: 1200px;
-    height: auto;
-    margin: 30px auto;
+    height: 1100px;
+    margin: 0px auto;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0.125rem 0.017rem 10px;
     align-content: center;
-    justify-content: space-evenly;
 }
 table{
     border: 1px solid black;
     text-align: center;
     border-spacing: 0px;
+    color: #000;
 }
 table td{
     font-size: 14.15pt;
@@ -95,13 +126,15 @@ table td{
     padding: 5px;
 }
 .tabelaonibus{
-    width: 1100px;
+    display: block;
+    width: 1000px;
     height: auto;
+    margin: 0px auto;
 }
 .titulo{
     font-size: 13.15pt;
     font-weight: bold;
-    background-color: #00b50f;
+    background-color: #f26e11;
     color: white;
 }
 .intiner{
@@ -109,12 +142,13 @@ table td{
     padding: 5px;
 }
 
+/* HISTÓRIA DA EMPRESA */
 #historia{
-    background-color: #c4c4c4;
+    color: #fff;
+    background-color: #014c78;
     font-family: Arial, Helvetica, sans-serif;
-    width: 1349px;
+    width: 1351px;
     height: 400px;
-    margin-left: -8px;
     text-align: center;
 }
 #historia div{
@@ -124,15 +158,21 @@ table td{
     margin: 0px auto;
 }
 
+/* CIDADES Q ATUA */
 #cidades{
-    text-align: center;
+    width: 1351px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 180px;
+    text-align: center;
 }
-
+#cidades div {
+    padding-top: 30px;
+}
 ul#listcidades{
     display: flex;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0px auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -140,17 +180,22 @@ ul#listcidades{
     font-size: 18pt;
 }
 ul#listcidades > li{
+    font-weight: bold;
     flex: 1 1 150px;
+    padding: 20px;
     margin: 10px;
 }
 
+/* FORMULÁRIO */
 #formcad{
-    position: relative;
-    background-color: rgba(235, 235, 235, 0.596);
-    width: 1349px;
+    background-color: #f26e11;
+    width: 1351px;
     height: 700px;
-    margin-left: -8px;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#formcad > h2 {
+    color: white;
 }
 #formcad form{
     background-color: white;
@@ -198,7 +243,7 @@ button {
     color: white;
     margin-top: 15px;
     font: normal bold 18pt Arial;
-    background: #0dd621;
+    background: #f26e11;
     width: 200px;
     height: 55px;
     border-radius: 50px;
@@ -207,12 +252,14 @@ button {
 }
 
 footer{
-    background-color: #00b50f;
+    background-color: #121b54;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 1349px;
-    height: 200px;
-    margin-left: -8px;
+    width: 1351px;
+    height: 250px;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 footer h2{
     margin-left: 15px;
@@ -227,4 +274,5 @@ a{
     font-size: 14.15pt;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 90px;
 }
