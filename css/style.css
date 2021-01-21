@@ -48,7 +48,7 @@ nav#menu li:hover{
 
 /* BANNER INICIAL */
 #bemvindo{
-    background-image: url('/imagens/onibus.png');
+    background-image: url('../imagens/onibus.png');
     background-repeat: no-repeat;
     background-position: 680px 40px;
     background-color: #014c78;
